@@ -1,7 +1,7 @@
-def remove_last(lst):
-    if lst:
-        lst.pop()
-        #original list
-        my_list = [10,20,30,40]
-        remove_last(my_list)
-        print("list after remove_last:", my_list)
+a=input("enter")
+sum=0
+for i in range(0,len(a)):
+    sum+=int(a[i])
+print(sum)
+
+ 
